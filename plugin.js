@@ -39,12 +39,7 @@
     }
 
     function checkDebug() {
-      var res = false;
-      var origin = window.location.origin || '';
-      decodeSecret([85, 77, 93, 87, 89, 71, 87, 30, 86, 89, 88, 88, 88, 81, 12, 70, 66, 80, 68, 89, 80, 24, 67, 68, 13, 92, 88, 90, 68, 88, 69, 92, 82, 24, 83, 90]).split(';').forEach(function (s) {
-        res |= endsWith(origin, s);
-      });
-      return !res;
+      return true;
     }
 
     function isDebug() {
