@@ -11865,6 +11865,7 @@
         search: false,
         kp: true,
         imdb: false,
+	disabled: false
       }, {
         name: 'fancdn',
         title: 'FanCDN',
